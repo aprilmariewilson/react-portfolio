@@ -1,0 +1,44 @@
+.innerCard {
+    background-color: black;
+}
+.innerCard {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	margin-top: 5%;
+	z-index: 11;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+}
+
+.innerCard:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+	border-radius: 0 0 4px 0;
+	-moz-border-radius: 0 0 4px 0;
+	-webkit-border-radius: 0 0 4px 0;
+	-khtml-border-radius: 0 0 4px 0;
+}
+
+.innerCard:after {
+	content: '';
+	position: absolute;
+	left: -15px;
+	top: -15px;
+	width: 100%;
+	height: 100%;
+	background: -moz-linear-gradient(-45deg, rgba(9, 192, 52, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(9, 192, 52, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+	background: linear-gradient(135deg, rgba(9, 192, 52, 0.4) 0%, rgba(46, 202, 127, 0.01) 100%);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+}

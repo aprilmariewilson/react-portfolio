@@ -1,0 +1,143 @@
+.resume-title .icon {
+	background: transparent;
+}
+
+.resume-title .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.resume-items .resume-item .name {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.resume-title {
+	padding: 0 0 20px 0;
+	position: relative;
+}
+
+.resume-title:after {
+	left: -20px;
+}
+
+  .content .title:before {
+	content: '';
+	position: absolute;
+	left: -12px;
+	top: 0;
+	width: 30px;
+	height: 30px;
+	background: -moz-linear-gradient(-45deg, #2eca7f, 0.4, 0%, #2eca7f, 0.01 100%);
+	background: -webkit-linear-gradient(-45deg, #2eca7f, 0.4, 0%, #2eca7f, 0.01 100%);
+	background: linear-gradient(135deg, #2eca7f, 0.4, 0%, #2eca7f, 0.01 100%);
+	z-index: -1;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-khtml-border-radius: 30px;
+}
+.content .title:after {
+	content: '';
+	position: absolute;
+	left: -60px;
+	bottom: -15px;
+	width: 95%;
+	height: 1px;
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.resume-title .icon {
+	position: relative;
+	top: -15px;
+	float: left;
+	width: 40px;
+	height: 40px;
+	font-size: 32px;
+	color: #2eca7f;
+	background: #ffffff;
+}
+
+.resume-title .icon .ion,
+.resume-title .icon .fab,
+.resume-title .icon .fas {
+	display: block;
+	line-height: 40px;
+}
+
+.resume-title .name {
+	margin: 0 0 0 40px;
+	font-size: 13px;
+	line-height: 13px;
+	color: #171717;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+/* 5.1 Resume */
+.resume-items .resume-item {
+	position: relative;
+	padding: 20px 0 20px 0;
+}
+
+.resume-items .resume-item:after {
+	left: -20px;
+}
+
+.resume-items .resume-item.active .date {
+	color: #2eca7f;
+}
+
+.resume-items .resume-item.active .date:before {
+	background: #2eca7f;
+}
+
+.resume-items .resume-item .date {
+	margin: 0 0 10px 0;
+	padding: 0;
+	position: relative;
+	display: inline-block;
+	font-size: 11px;
+	line-height: 18px;
+	color: #d8dbe2;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+}
+
+.resume-items .resume-item .date:before {
+	content: '';
+	position: absolute;
+	left: -25px;
+	top: 4px;
+	width: 9px;
+	height: 9px;
+	background: #d8dbe2;
+	border-radius: 9px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	-khtml-border-radius: 9px;
+}
+
+.resume-items .resume-item .name {
+	margin: 0;
+	font-size: 13px;
+	color: #171717;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.resume-items .resume-item .company {
+	margin: 0 0 10px 0;
+	font-size: 11px;
+	color: #999999;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.resume-items .resume-item p {
+	margin: 0;
+}
